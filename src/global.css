@@ -1,0 +1,38 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osk-font-smoothing: grayscale;
+
+}
+
+:root {
+  --pink:#f565ca;
+   /*cores de texto*/
+   --white-light:#e1e1e6;
+  --white-dark:#fbfbfb;
+
+  /*cores para background*/
+  --color-bg-dark:#d877bb;
+  --color-line:#f837be;
+
+  /*cores contatos*/
+  --color-line-contato: #890645;
+  border-radius: 4;
+  
+
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #000000;
+  color: var(--dark);
+
+}
+
+body, input, textarea, button {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}

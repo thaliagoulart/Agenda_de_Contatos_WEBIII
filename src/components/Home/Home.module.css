@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+.title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-left: 2.8rem;
+  padding-top: 2rem;
+
+  
+}
+.controles {
+  margin-left: 4rem;
+  font-size: 1rem;
+
+}
+.contatos {
+  flex-direction: column;
+  margin-left: 20rem;
+  background-color: #f77bde;
+}
+.headerContatos {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-bottom: 1rem;
+
+}
+.buttons {
+  margin-top: 1rem;
+  margin-left: 2.9rem;
+  padding-top: 1.5rem;
+}
+.buttom {
+  height: 3.4rem;
+  width:  3.5rem;
+  align-items: center;
+  background-color:transparent;
+  color: #fff;
+  border-color: #0b33e600;
+  margin-left: 1rem;
+  font-size: 1.7rem;
+  padding-top: 0.3rem;
+   
+}
+
+.pesquisa {
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-color: transparent;
+}
+.buttomPesquisa {
+  background-color: #df2db000;
+  height: 3.5rem;
+  width: 5rem;
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-left: -2rem;
+}
+.inputPesquisa {
+  
+  background-color: rgba(248, 105, 205, 0.869);
+  height: 3.3rem;
+  width: 34rem;
+  border-color: #b8abb31c;
+  font-size: medium;
+  color: #fff;
+  
+
+}
+
+
+.listaCatalogo {
+  display: flex;
+  flex:1rem;
+  flex-direction: row;
+  background-color: #d83c9c93;
+}
+
+.letraCatalogo {
+  width: 1rem;
+  font-size: 2rem;
+  margin-right: 2rem;
+  margin-top:rem;
+  margin-left: 4rem;
+  text-align: center;
+  padding-top: 6.9rem;
+  color: #ffffff
+}
